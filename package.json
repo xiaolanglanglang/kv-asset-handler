@@ -7,9 +7,10 @@
   "scripts": {
     "prepack": "npm run build",
     "build": "tsc -d",
+    "watch": "watch 'npm run build' ./src ./src/*/",
     "format": "prettier --write '**/*.js'",
-    "pretest": "npm run build",
-    "test": "ava dist/test/*.js --verbose"
+    "test": "ava dist/test/*.js --verbose",
+    "watch-test": "watch 'npm run test' ./src ./src/*/"
   },
   "repository": {
     "type": "git",
@@ -42,6 +43,7 @@
     "ava": "^1.4.1",
     "service-worker-mock": "^2.0.3",
     "ts-loader": "^6.2.1",
-    "typescript": "^3.7.2"
+    "typescript": "^3.7.2",
+    "watch": "^1.0.2"
   }
 }
