@@ -1,5 +1,5 @@
 {
-  "name": "@cloudflare/kv-asset-handler",
+  "name": "@xiaolanglanglang/kv-asset-handler",
   "version": "0.0.11",
   "description": "Routes requests to KV assets",
   "main": "dist/index.js",
