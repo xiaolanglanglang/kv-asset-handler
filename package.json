@@ -1,6 +1,6 @@
 {
   "name": "@xiaolanglanglang/kv-asset-handler",
-  "version": "0.0.11",
+  "version": "0.0.12-0",
   "description": "Routes requests to KV assets",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
